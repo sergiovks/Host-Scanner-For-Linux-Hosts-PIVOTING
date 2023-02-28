@@ -6,9 +6,7 @@ function ctrl_c(){
 }
 
 #Ctrl+C
-
 trap ctrl_c INT
-
 tput civis
 
 read -p "Enter the first three octets of the IP address (e.g., 10.10.0): " ip
